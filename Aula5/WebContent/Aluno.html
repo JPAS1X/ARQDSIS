@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Gerenciar Aluno</title>
+</head>
+<body>
+	<h3> Gerenciar Alunos</h3>
+	<form action="Manter_Aluno.do" method="post">
+		<label id="codigo">Código:</label><input type="number" name="codigo"><br/>
+		<label id="nome">Nome:</label><input type="text" name="nome"><br/>
+		<label id="dataNascimento">Data de nascimento:</label><input type="text" name="dataNascimento"><br/>
+		<fieldset>
+				<label>Sexo:</label><br/>
+				<input type="radio" name="masculino" value="masc"><label>Masculino</label>
+				<input type="radio" name="feminino" value="fem"><label>Feminino</label><br/>
+		</fieldset>
+		<label id="endereco">Endereço:</label><input type="text" name="endereco"><br/>
+		<label id="numero">Número:</label><input type="number" name="numero"><br/>
+		<label id="complemento">Complemento:</label><input type="text" name="complemento"><br/>
+		<label id="rg">RG:</label><input type="text" name="rg"><br/>
+		<label id="cpf">CPF:</label><input type="text" name="cpf"><br/>
+		<label id="email">Email:</label><input type="text" name="nome"><br/>
+		<label id="telefone">Telefone:</label><input type="text" name="nome"><br/><br/>
+		
+		<input type="submit" name="acao" value="Inserir">
+		<input type="submit" name="acao" value="Atualizar">
+		<input type="submit" name="acao" value="Carregar">
+		<input type="submit" name="acao" value="Excluir">
+			
+	</form>
+
+</body>
+</html>
