@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Cursos</title>
+<link href="ManterCurso.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="topo">
+		<div class="conteudo-topo">
+			<div class="logo"></div>
+		</div>
+	</div>
+
+
+
+	<h3>Cadastro de Cursos</h3><br>
+
+	<form method="post" action="manter_cursos.do">
+	Código:<input type="number" name="codigo" style="width:150px; height:20px;"placeholder="123456"><br><br>
+
+	Nome:<input type="text" name="nome" style="width:300px; height:20px; "placeholder="Ex: Sistemas de Informacao"><br><br>
+	Data de Início:<input type="text"name="dataDeInicio" style="width:150px; height:20px;" placeholder="dd/mm/aa"><br><br>
+	Data de Termino:<input type="text" name="dataDeTermino" style="width:150px; height:20px;"placeholder="dd/mm/aa"><br><br>
+	Horário:<input type="number" name="horario" style="width:150px; height:20px;"placeholder="hh:mm"><br><br>
+	Número de Vagas:<input type="number" name="numeroDeVagas" style="width:150px; height:20px;" placeholder="12345"><br><br>
+	Valor:<input type="number" name="valor" style="width:150px; height:20px;" placeholder="R$1.234,00"><br><br>
+	Tipo Lab:<input type="text" name="tipoLab" style="width:150px; height:20px;" placeholder="Artes/Informatica" ><br><br>
+	Software:<input type="text" name="software" style="width:150px; height:20px;><br><br>
+	Livros:<input type="text" name="livros" style="width:150px; height:20px;><br><br>
+	DescricaoMaterial:<input type="text" name="DescricaoMaterial"style="width:150px; height:20px; placeholder="Livros..."><br><br>
+
+	<input type="submit" name="acao" value="Inserir">
+	<input type="submit" name="acao" value="Atualizar">
+	<input type="submit" name="acao" value="Carregar">
+	<input type="submit" name="acao" value="Excluir">
+</form>
+</body>
+</html>

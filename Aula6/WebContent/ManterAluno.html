@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Alunos</title>
+<link href="ManterAluno.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	
+	<div class="topo">
+		<div class="conteudo-topo">
+			<div class="logo"></div>
+		</div>
+	</div>
+
+	<h3>Cadastro de Alunos</h3><br>
+	<form method="post" action="manter_alunos.do">
+	Código:<input type="number" name="codigo" placeholder="123456" size="40" maxlength="30"><br><br>
+	Nome:<input type="text" name="nome" placeholder="Ex: Carlos Dias" size="25" maxlength="30"><br><br>
+	Sexo:<input type="text" name="sexo" placeholder="Masculino" size="25" maxlength="30"><br><br>
+	Data Nascimento:<input type="number" name="dataNascimento" placeholder="DDMMAA" size="10" maxlength="10"><br><br>
+	Endereco:<input type="text" name="endereco" placeholder="Rua Novo Horizonte"><br><br>
+	Número:<input type="number" name="numero" placeholder="1234"><br><br>
+	Complemento:<input type="text" name="complemento" placeholder="Bloco 04 Apartamento 3"><br><br>
+	Rg:<input type="number" name="rg" placeholder="12345678-09"><br><br>
+	Cpf:<input type="text" name="cpf" placeholder="98765432-01"><br><br>
+	E-mail:<input type="text" name="email" placeholder="email@servidor.com"><br><br>
+	Telefone:<input type="text" name="telefone" placeholder="11912345678"><br><br>
+	
+
+		
+	<input type="submit" name="acao" value="Inserir">
+	<input type="submit" name="acao" value="Atualizar">
+	<input type="submit" name="acao" value="Carregar">
+	<input type="submit" name="acao" value="Excluir">
+</form>
+
+</body>
+</html>
